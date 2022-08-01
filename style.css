@@ -1,0 +1,11 @@
+
+.alert-float{
+    /* position: absolute; */
+    position: sticky;
+    top: 80%;
+    left: 79%;
+    z-index: 1;
+    width: 20%;
+    padding: 10px 20px;
+    border-left: 7px solid blue;
+}
