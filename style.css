@@ -1,8 +1,8 @@
 
 .alert-float{
     /* position: absolute; */
-    position: sticky;
-    top: 80%;
+    /* position: sticky; */
+    top: 60%;
     left: 79%;
     z-index: 1;
     width: 20%;
