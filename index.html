@@ -12,7 +12,18 @@
 
 <body>
 
-   
+    <!-------------------------- alert -------------------------- -->
+
+    <div class="alert alert-white alert-dismissible fade show alert-float shadow-lg bg-white position-sticky" role="alert">
+        <div class="d-flex align-items-center">
+            <img src="icons/Vector.svg" class="pe-2" alt="">
+            <p class="m-0">20% off on next booking</p>
+        </div>
+        <button type="button" class="btn-close p-3" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+
+    
+   <!--------------------------------------- header  ------------------------>
     <header>
         <!-------------------------navbar----------------------------------->
         <navbar>
@@ -46,9 +57,6 @@
 
         </navbar>
 
-        
-        
-
         <!-------------------------navbar main-------------------------------->
         <main>
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
@@ -65,7 +73,7 @@
                 <div class="carousel-inner">
                     
                     <div class="carousel-item active">
-                        <img src="images/banner.png" class="d-block w-100" alt="...">
+                        <img src="images/banner.png" class="d-block h-100"alt="...">
                         <div class="carousel-caption">
                             <h1>The perfect venue for your <br> next event</h1>
                             <p>Amet minim mollit non deserunt ullamco est sit aliqua <br> dolor do amet sint. Velit officia consequat duis enim velit</p>
@@ -74,7 +82,7 @@
                     </div>
 
                     <div class="carousel-item">
-                        <img src="images/banner.png" class=" w-100" alt="...">
+                        <img src="images/banner.png" class="d-block h-100" alt="...">
                         <div class="carousel-caption">
                             <h1>The perfect venue for your <br> next event</h1>
                             <p>Amet minim mollit non deserunt ullamco est sit aliqua <br> dolor do amet sint. Velit officia consequat duis
@@ -84,7 +92,7 @@
                     </div>
 
                     <div class="carousel-item">
-                        <img src="images/banner.png" class="w-100" alt="...">
+                        <img src="images/banner.png" class="d-block h-100" alt="...">
                         <div class="carousel-caption">
                             <h1>The perfect venue for your <br> next event</h1>
                             <p>Amet minim mollit non deserunt ullamco est sit aliqua <br> dolor do amet sint. Velit officia consequat duis
@@ -109,13 +117,6 @@
     </header>
 
 
-<div class="alert alert-white alert-dismissible fade show alert-float shadow-lg bg-white position-sticky" role="alert">
-    <img src="icons/Vector.svg" alt=""> 20% off on next booking
-    <button type="button" class="btn-close p-3" data-bs-dismiss="alert" aria-label="Close"></button>
-</div>
-
-    
-
     <!------------------------------------- second part  --------------------------------------------------->
     <section class="container my-5">
         <div class="card mb-3">
@@ -124,7 +125,7 @@
                     <img src="images/wedding.png" class="img-fluid rounded-start" style="height:100% ;" alt="...">
                 </div>
                 <div class="col-md-7 d-flex align-items-center">
-                    <div class="card-body p-5">
+                    <div class="card-body p-5 text-center text-md-start">
                         <h2 class="card-title fw-bold text-black">Every moment is Precious</h2>
 
                         
@@ -141,7 +142,7 @@
 
     <!------------------------------------------ package section  -------------------------------------->
     <section class="container my-2 my-lg-5">
-        <h1 class="text-center text-black my-2 my-lg-5">Our Packages</h1>
+        <h1 class="text-center text-black my-2">Our Packages</h1>
 
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
             <div class="col">
@@ -173,7 +174,7 @@
                 <div class="card border-0 my-3">
             
                     <div class="card-body text-center">
-                        <h1 class="card-title text-start mt-5">$300</h1>
+                        <h1 class="card-title text-start mt-5">$500</h1>
                         <h3 class="text-start">Business fair</h3>
                         <p class="card-text text-start">For most businesses event
                             like book fair, craft fair.
@@ -228,7 +229,7 @@
                 <div class="card border-0 my-3">
             
                     <div class="card-body text-center">
-                        <h1 class="card-title text-start mt-5">$300</h1>
+                        <h1 class="card-title text-start mt-5">$1200</h1>
                         <h3 class="text-start">Business fair</h3>
                         <p class="card-text text-start">For most businesses event
                             like book fair, craft fair.
@@ -257,10 +258,10 @@
 
     <!----------------------------------------- happy client section  -------------------------------------------->
 
-    <section class="container my-5">
-        <h1 class="text-center">Happy Client Says</h1>
+    <section class="container my-2">
+        <h1 class="text-center my-2" >Happy Client Says</h1>
 
-        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 my-sm-3 my-lg-5">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 my-sm-3 my-lg-0">
             <div class="col my-2 my-lg-5">
                <div class="card text-center py-2 px-3 shadow-lg">
                 <div class="card-body">
@@ -302,7 +303,7 @@
 
     <!----------------------------------------- FAQ section  --------------------------------------------->
     <section class="container my-5">
-        <h1 class="text-center text-black my-sm-3 my-lg-5 ">Frequently Asked Questions</h1>
+        <h1 class="text-center text-black my-sm-3 ">Frequently Asked Questions</h1>
         <div class="row row-cols-1 row-cols-lg-2 align-items-center">
             <div class="col order-1 order-sm-2">
                 <div class="accordion" id="accordionExample">
@@ -372,14 +373,21 @@
 
     <!------------------------------------------------- footer  ------------------------------------------->
 
-    <footer class="bg-black text-white-50 py-5">
-        <div class="container d-flex align-items-center justify-content-between">
-            <h5>© 2022. All rights reserved</h5>
-            <div class="d-flex flex-column justify-content-center">
-                <h5 class="text-end">Get the App</h5>
-                <a href="" class="my-1 text-end"><img src="images/foot1.png" style="width: 20%; border: 1px solid white; border-radius: 20px;"alt=""></a>
-                <a href="" class="my-1 text-end"> <img src="images/foot2.png" style="width: 20%; border: 1px solid white; border-radius: 20px;" alt=""> </a>
+    <footer class="bg-black py-5">
+        
+
+        <div class="container row row-cols-1 row-cols-md-2 mx-auto text-muted">
+
+            <h5 class="col text-center text-md-start order-2 order-md-1 my-2">© 2022. All rights reserved </h5>
+
+            <div class="col d-flex flex-column align-items-center align-items-md-end order-1 order-md-2">
+                <h4>Get the App</h4>
+                
+                <a href="" class="text-center text-md-end my-2"><img src="images/foot1.png" class="img-fluid border rounded-4" style="width: 35% ;" alt=""></a>
+                <a href="" class="text-center text-md-end my-2"><img src="images/foot2.png" class="img-fluid border rounded-4" style="width: 35% ;" alt=""></a>
+                
             </div>
+            
         </div>
     </footer>
 
