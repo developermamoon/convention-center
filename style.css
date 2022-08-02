@@ -20,8 +20,9 @@
     }
     .carousel-inner .carousel-item img
     {
-        height: 400px; 
-        object-fit:cover;
+        height: 600px; 
+        width: auto;
+        object-fit: cover;
         object-position: 43%;
     }
     footer .container h5{
@@ -36,5 +37,8 @@
     .alert-float{
         width: 30%;
         font-size: 12px;
+    }
+    .carousel-inner .carousel-item img{
+        height: 400px;
     }
 }
